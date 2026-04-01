@@ -1,59 +1,31 @@
 # 📊 Smart Data Storytelling App
 
-A dynamic and intelligent data analysis application built using Streamlit that works with **any CSV dataset** and automatically generates insights, visualizations, and trends.
+🚀 Live App: https://data-storytelling-app-ggfi2pgkq2w5cfjasbnvo7.streamlit.app/
+## 🔥 Overview
+An intelligent data analysis app that automatically analyzes any CSV file and generates insights, charts, and trends without manual coding.
 
----
-
-## 🚀 Features
-
-### 🔍 Smart Data Handling
-- Supports any CSV file
-- Handles encoding issues (UTF-8, Latin1, CP1252)
-- Automatically detects numeric and categorical columns
-- Ignores ID columns for meaningful analysis
-
----
-
-### 🧠 Intelligent Analysis
-- Auto-selects the most relevant metric
-- Detects dataset type:
-  - 🩺 Health datasets (e.g., diabetes)
-  - 💰 Sales datasets
-  - 🎬 Movie datasets
-  - 📦 Generic datasets
-
----
-
-### 📊 Visualizations
-- Top category analysis
-- Trend analysis (supports Date or YEAR + MONTH)
+## ⚙️ Features
+- Works with ANY CSV file
+- Automatic data cleaning (handles encoding issues)
+- Smart column detection (numeric, categorical, date)
+- Auto-generated insights
+- Dynamic visualizations
 - Correlation heatmap
-- Custom column exploration
+- Filtering & custom analysis
 
----
+## 🧠 Smart Capabilities
+- Automatically selects meaningful metrics
+- Detects time-based trends
+- Handles missing and messy data
+- Generates insights without user input
 
-### 🤖 AI-Style Insights
-- Automatically generates human-like insights
-- Detects:
-  - Trends 📈
-  - Variability 📊
-  - Negative values ⚠️
-  - Top & low-performing categories 🏆
-
----
-
-## 🛠️ Tech Stack
-
+## 🛠 Tech Stack
 - Python
-- Streamlit
 - Pandas
+- Streamlit
 - Matplotlib
-- Seaborn
 
----
-
-## ▶️ How to Run Locally
-
+## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
